@@ -1,11 +1,12 @@
 # Claude Code Workshops — Additional Modules
 
-Additional hands-on modules for the Claude Code on Amazon Bedrock workshop. Each module is self-contained and can be run independently.
+These modules extend the [Claude Code on Amazon Bedrock](https://catalog.workshops.aws/claudecode101/en-US) workshop with additional hands-on scenarios covering real-world use cases — prompt engineering, document analysis, spreadsheet processing, and tool integrations. Each module is self-contained and can be run independently, but works best after completing the base workshop.
 
 ## Modules
 
 | Module | Description | Key techniques |
 |--------|-------------|----------------|
+| [Prompt Engineering](00-prompt-engineering/) | Learn how prompt quality affects output quality, and how to use Claude to improve your own prompts | Prompt improvement, clarifying questions |
 | [Document Analysis](01-document-analysis/) | Synthesize insights across multiple documents — meeting notes, research, and reports | Multi-doc synthesis, timeline building |
 | [Excel Analysis](02-excel-analysis/) | Analyze spreadsheet data, flag anomalies, and build summaries using Claude Code | Cell styles, computed columns |
 | [Data Analysis](03-data-analysis/) | Statistical analysis, visualization, and stakeholder-ready report generation | Outlier detection, HTML charts |
@@ -23,4 +24,4 @@ Additional hands-on modules for the Claude Code on Amazon Bedrock workshop. Each
 2. Launch Claude Code from here: `claude`
 3. Pick any module and follow its README
 
-Each module's prompts use specific folder paths (e.g. `01-document-analysis/meeting-notes/`) so Claude Code stays scoped to the right files. The `static/` folder contains shared demo files (spreadsheets, documents, and the mock Jira MCP server) used across modules.
+Each module is self-contained — sample data files live inside each module's folder. Each module's prompts use specific folder paths (e.g. `01-document-analysis/meeting-notes/`) so Claude Code stays scoped to the right files.

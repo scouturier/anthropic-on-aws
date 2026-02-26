@@ -2,7 +2,7 @@
 
 In this module, you'll learn how to use Claude Code to read Excel files, identify suspicious data using cell styles, add computed columns, and build summary tables — all without writing a single formula.
 
-**Files used:** `static/dispute_transactions.xlsx`
+**Files used:** `02-excel-analysis/dispute_transactions.xlsx`
 **Prerequisite:** Base workshop setup complete
 
 ## About Skills
@@ -37,12 +37,12 @@ claude
 
 ## The Scenario
 
-The `static/dispute_transactions.xlsx` file contains 10 transactions from Robert Chen's account between February 14-17, 2026. Some are legitimate. Some aren't. Let's find out which.
+The `02-excel-analysis/dispute_transactions.xlsx` file contains 10 transactions from Robert Chen's account between February 14-17, 2026. Some are legitimate. Some aren't. Let's find out which.
 
 ## Step 1: Calculate the Disputed Total
 
 ```
-Open static/dispute_transactions.xlsx and calculate the total of all transactions that are highlighted in red (suspicious ones). Use npm packages.
+Open 02-excel-analysis/dispute_transactions.xlsx and calculate the total of all transactions that are highlighted in red (suspicious ones). Use npm packages.
 ```
 
 Watch how Claude unpacks the Excel file, reads the cell styles to identify highlighted rows, and computes the total. No formulas to write, no manual selection.

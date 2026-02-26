@@ -2,7 +2,7 @@
 
 In this module, you'll learn how to use Claude Code for statistical analysis, interactive chart generation, cross-source pattern detection, and producing stakeholder-ready reports — no BI tools or Python required.
 
-**Files used:** `static/bank_demo.xlsx`, `01-document-analysis/meeting-notes/customer-feedback-summary.md`
+**Files used:** `03-data-analysis/bank_demo.xlsx`, `01-document-analysis/meeting-notes/customer-feedback-summary.md`
 **Prerequisite:** Base workshop setup complete
 
 ## How this works
@@ -14,7 +14,7 @@ Claude Code doesn't just generate code — it executes it. When you ask it to an
 Point Claude at the broader dataset:
 
 ```
-Open static/bank_demo.xlsx and give me a statistical breakdown: averages, medians, standard deviations, and any outliers in the transaction amounts. Break it down by category if the data supports it. Use npm packages.
+Open 03-data-analysis/bank_demo.xlsx and give me a statistical breakdown: averages, medians, standard deviations, and any outliers in the transaction amounts. Break it down by category if the data supports it. Use npm packages.
 ```
 
 Try pushing it further:
@@ -44,7 +44,7 @@ Open the file:
 Bring in qualitative data alongside the financial data:
 
 ```
-Read both static/bank_demo.xlsx and the customer feedback summary. Are there any patterns that connect the financial transaction data with the customer satisfaction trends? Write up your findings.
+Read both 03-data-analysis/bank_demo.xlsx and the customer feedback summary. Are there any patterns that connect the financial transaction data with the customer satisfaction trends? Write up your findings.
 ```
 
 ## Step 4: Generate a Stakeholder Report

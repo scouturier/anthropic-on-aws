@@ -2,7 +2,7 @@
 
 In this module, you'll learn how to use Claude Code to verify data consistency across Excel and Word files, review and accept tracked changes, respond to inline compliance comments, and ensure documents stay in sync.
 
-**Files used:** `static/dispute_letter.docx`, `static/dispute_transactions.xlsx`
+**Files used:** `04-cross-reference/dispute_letter.docx`, `04-cross-reference/dispute_transactions.xlsx`
 **Prerequisite:** Module 02 (Excel Analysis) recommended
 
 ## How this works
@@ -14,7 +14,7 @@ Word and Excel files are binary formats — they contain far more than visible t
 Ask Claude to compare data across Excel and Word:
 
 ```
-Does the disputed amount in static/dispute_letter.docx match the total disputed transactions in static/dispute_transactions.xlsx? If not, update the letter with the correct amount. Use npm packages.
+Does the disputed amount in 04-cross-reference/dispute_letter.docx match the total disputed transactions in 04-cross-reference/dispute_transactions.xlsx? If not, update the letter with the correct amount. Use npm packages.
 ```
 
 Claude reads both files, compares the amounts, and fixes any discrepancy — the kind of cross-file verification that's error-prone when done manually.
@@ -24,7 +24,7 @@ Claude reads both files, compares the amounts, and fixes any discrepancy — the
 The letter has been through compliance review. See what they said:
 
 ```
-Show me all tracked changes and comments in static/dispute_letter.docx
+Show me all tracked changes and comments in 04-cross-reference/dispute_letter.docx
 ```
 
 ## Step 3: Accept Changes and Respond
@@ -32,13 +32,13 @@ Show me all tracked changes and comments in static/dispute_letter.docx
 Handle the feedback:
 
 ```
-Accept all tracked changes in static/dispute_letter.docx
+Accept all tracked changes in 04-cross-reference/dispute_letter.docx
 ```
 
 Then address the compliance comments:
 
 ```
-Update static/dispute_letter.docx: add a sentence mentioning that we've filed a fraud report with the card network, then reply to the compliance reviewer's comment confirming it's been addressed. Save the file.
+Update 04-cross-reference/dispute_letter.docx: add a sentence mentioning that we've filed a fraud report with the card network, then reply to the compliance reviewer's comment confirming it's been addressed. Save the file.
 ```
 
 ## Step 4: Final Verification

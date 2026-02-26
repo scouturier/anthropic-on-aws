@@ -73,4 +73,4 @@ You just turned 7 scattered documents into a structured deliverable in seconds.
 
 ---
 
-[← Back to workshop index](../README.md) | [Next: Excel Analysis →](../02-excel-analysis/README.md)
+[← Previous: Prompt Engineering](../00-prompt-engineering/README.md) | [Next: Excel Analysis →](../02-excel-analysis/README.md)
