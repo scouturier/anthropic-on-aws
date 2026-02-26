@@ -13,10 +13,10 @@ Exit Claude Code if it's running:
 Install dependencies and register the MCP server:
 
 ```
-cd static/mock-jira-mcp
+cd 05-jira-integration/mock-jira-mcp
 npm install
 cd ../..
-claude mcp add jira -- node static/mock-jira-mcp/server.js
+claude mcp add jira -- node 05-jira-integration/mock-jira-mcp/server.js
 ```
 
 Start Claude Code to load the MCP server:
