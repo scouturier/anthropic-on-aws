@@ -1,10 +1,6 @@
 # Excel Analysis
 
-| | |
-|---|---|
-| **What you'll learn** | How to use Claude Code to analyze, flag, and summarize spreadsheet data |
-| **Time** | ~10 minutes |
-| **Prerequisites** | Claude Code running from the `claude-code-workshops` root folder |
+In this module, you'll learn how to use Claude Code to read Excel files, identify suspicious data using cell styles, add computed columns, and build summary tables — all without writing a single formula.
 
 ## Setup: Install Document Skills
 

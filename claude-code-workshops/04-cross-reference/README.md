@@ -1,10 +1,6 @@
 # Cross-Reference & Compliance
 
-| | |
-|---|---|
-| **What you'll learn** | How to use Claude Code to verify data across files and handle tracked changes in Word documents |
-| **Time** | ~10 minutes |
-| **Prerequisites** | Claude Code running from the `claude-code-workshops` root folder, document skills installed (see module 02) |
+In this module, you'll learn how to use Claude Code to verify data consistency across Excel and Word files, review and accept tracked changes, respond to inline compliance comments, and ensure documents stay in sync.
 
 ## Step 1: Cross-Reference the Files
 

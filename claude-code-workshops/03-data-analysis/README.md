@@ -1,10 +1,6 @@
 # Data Analysis
 
-| | |
-|---|---|
-| **What you'll learn** | How to use Claude Code for statistical analysis, visualization, and report generation |
-| **Time** | ~15 minutes |
-| **Prerequisites** | Claude Code running from the `claude-code-workshops` root folder, document skills installed (see module 02) |
+In this module, you'll learn how to use Claude Code for statistical analysis, interactive chart generation, cross-source pattern detection, and producing stakeholder-ready reports — no BI tools or Python required.
 
 ## Step 1: Statistical Analysis
 

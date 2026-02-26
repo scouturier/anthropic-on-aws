@@ -1,10 +1,6 @@
 # Jira MCP Integration
 
-| | |
-|---|---|
-| **What you'll learn** | How to connect Claude Code to external tools via MCP and manage Jira tickets from the terminal |
-| **Time** | ~15 minutes |
-| **Prerequisites** | Claude Code running from the `claude-code-workshops` root folder, Node.js installed |
+In this module, you'll learn how to connect Claude Code to external tools using Model Context Protocol (MCP). You'll set up a mock Jira server, search and update tickets, and run cross-tool workflows — all from the terminal.
 
 ## Setup: Install the Mock Jira Server
 

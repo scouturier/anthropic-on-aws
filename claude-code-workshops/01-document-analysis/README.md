@@ -1,10 +1,6 @@
 # Document Analysis
 
-| | |
-|---|---|
-| **What you'll learn** | How to use Claude Code to synthesize insights across multiple documents |
-| **Time** | ~10 minutes |
-| **Prerequisites** | Claude Code running from the `claude-code-workshops` root folder |
+In this module, you'll learn how to point Claude Code at a folder of documents and extract insights you'd normally spend hours reading for — timelines, cross-document connections, stakeholder perspectives, and structured deliverables.
 
 ## The Scenario
 
