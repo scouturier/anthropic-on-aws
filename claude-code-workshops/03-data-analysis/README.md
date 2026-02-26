@@ -2,6 +2,13 @@
 
 In this module, you'll learn how to use Claude Code for statistical analysis, interactive chart generation, cross-source pattern detection, and producing stakeholder-ready reports — no BI tools or Python required.
 
+**Files used:** `static/bank_demo.xlsx`, `01-document-analysis/meeting-notes/customer-feedback-summary.md`
+**Prerequisite:** Base workshop setup complete
+
+## How this works
+
+Claude Code doesn't just generate code — it executes it. When you ask it to analyze data, it installs the necessary npm packages, writes a script, runs it, and gives you the results, all in one conversation. Output files like HTML charts are saved directly to your working directory. You're essentially getting a data analyst that writes and runs its own code.
+
 ## Step 1: Statistical Analysis
 
 Point Claude at the broader dataset:
@@ -27,12 +34,10 @@ Create an HTML file called analysis.html with charts showing: 1) transaction amo
 Open the file:
 
 ```
-! start analysis.html
+! open analysis.html
 ```
 
-> **Iterate on the visuals**
->
-> Don't like the colors? Want a different chart type? Just tell Claude: "Make the bar chart horizontal" or "Add a trend line to the time series." It regenerates the file.
+> **Tip:** Don't like the colors? Want a different chart type? Just tell Claude: "Make the bar chart horizontal" or "Add a trend line to the time series." It regenerates the file.
 
 ## Step 3: Combine Multiple Sources
 
@@ -56,3 +61,7 @@ Based on all the analysis we've done in this session, generate a professional ex
 - You can generate interactive visualizations as standalone HTML files
 - Cross-source analysis (quantitative + qualitative) works in a single conversation
 - No BI tools, Python environments, or SQL queries required
+
+---
+
+[← Previous: Excel Analysis](../02-excel-analysis/README.md) | [Next: Cross-Reference & Compliance →](../04-cross-reference/README.md)

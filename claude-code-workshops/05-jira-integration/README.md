@@ -2,6 +2,13 @@
 
 In this module, you'll learn how to connect Claude Code to external tools using Model Context Protocol (MCP). You'll set up a mock Jira server, search and update tickets, and run cross-tool workflows — all from the terminal.
 
+**Files used:** `05-jira-integration/mock-jira-mcp/`
+**Prerequisite:** Node.js installed; base workshop setup complete
+
+## About MCP
+
+Model Context Protocol (MCP) is an open standard that lets Claude Code connect to external tools and data sources. Instead of copy-pasting between Claude and your other tools, you register an MCP server once and Claude gains native access to it — it can search, read, create, and update records directly. MCP servers exist for hundreds of tools: Jira, GitHub, Slack, databases, internal APIs, and more.
+
 ## Setup: Install the Mock Jira Server
 
 Exit Claude Code if it's running:
@@ -12,7 +19,7 @@ Exit Claude Code if it's running:
 
 Install dependencies and register the MCP server:
 
-```
+```bash
 cd 05-jira-integration/mock-jira-mcp
 npm install
 cd ../..
@@ -21,13 +28,9 @@ claude mcp add jira -- node 05-jira-integration/mock-jira-mcp/server.js
 
 Start Claude Code to load the MCP server:
 
-```
+```bash
 claude
 ```
-
-> **What is MCP?**
->
-> Model Context Protocol (MCP) is an open standard that lets AI assistants connect to external tools and data sources. When you add an MCP server to Claude Code, it gains new capabilities — in this case, the ability to search, create, and update Jira issues.
 
 ## Step 1: Explore Existing Tickets
 
@@ -68,8 +71,7 @@ Ask Claude to work across files and Jira together:
 Based on the analysis we did in dispute_transactions.xlsx, create a new Jira task in the FRAUD project to follow up with the customer within 5 business days. Include the disputed amount and number of suspicious transactions in the description.
 ```
 
-> **Try More!**
->
+> **Try more:**
 > - "Transition FRAUD-103 to In Progress and add a comment that we're filing the report today"
 > - "Search for all high priority issues assigned to Jane Smith"
 > - "Create a subtask for FRAUD-101 to archive the investigation documents"
@@ -80,3 +82,7 @@ Based on the analysis we did in dispute_transactions.xlsx, create a new Jira tas
 - You can search, create, update, and transition tickets conversationally
 - Cross-tool workflows (files + Jira) work in a single session
 - MCP servers exist for thousands of tools: [community sources](https://github.com/modelcontextprotocol/servers) and third-party repositories
+
+---
+
+[← Previous: Cross-Reference & Compliance](../04-cross-reference/README.md)

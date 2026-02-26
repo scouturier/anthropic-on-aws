@@ -4,13 +4,13 @@ Additional hands-on modules for the Claude Code on Amazon Bedrock workshop. Each
 
 ## Modules
 
-| Module | Description |
-|--------|-------------|
-| [Document Analysis](01-document-analysis/) | Synthesize insights across multiple documents — meeting notes, research, and reports |
-| [Excel Analysis](02-excel-analysis/) | Analyze spreadsheet data, flag anomalies, and build summaries using Claude Code |
-| [Data Analysis](03-data-analysis/) | Statistical analysis, visualization, and stakeholder-ready report generation |
-| [Cross-Reference & Compliance](04-cross-reference/) | Verify data across Word and Excel files, handle tracked changes and compliance review |
-| [Jira MCP Integration](05-jira-integration/) | Connect Claude Code to a mock Jira server via MCP to manage tickets and workflows |
+| Module | Description | Key techniques |
+|--------|-------------|----------------|
+| [Document Analysis](01-document-analysis/) | Synthesize insights across multiple documents — meeting notes, research, and reports | Multi-doc synthesis, timeline building |
+| [Excel Analysis](02-excel-analysis/) | Analyze spreadsheet data, flag anomalies, and build summaries using Claude Code | Cell styles, computed columns |
+| [Data Analysis](03-data-analysis/) | Statistical analysis, visualization, and stakeholder-ready report generation | Outlier detection, HTML charts |
+| [Cross-Reference & Compliance](04-cross-reference/) | Verify data across Word and Excel files, handle tracked changes and compliance review | Tracked changes, cross-file verification |
+| [Jira MCP Integration](05-jira-integration/) | Connect Claude Code to a mock Jira server via MCP to manage tickets and workflows | MCP setup, cross-tool workflows |
 
 ## Prerequisites
 

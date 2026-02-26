@@ -2,6 +2,13 @@
 
 In this module, you'll learn how to point Claude Code at a folder of documents and extract insights you'd normally spend hours reading for — timelines, cross-document connections, stakeholder perspectives, and structured deliverables.
 
+**Files used:** `01-document-analysis/meeting-notes/` (7 documents)
+**Prerequisite:** Base workshop setup complete
+
+## How Claude Code reads files
+
+Claude Code has direct access to your filesystem. When you point it at a folder, it reads every file and holds them all in context at once — so you can ask questions that span multiple documents without telling it where each piece of information lives. No indexing, no upload step, no RAG pipeline. It just reads.
+
 ## The Scenario
 
 Your `01-document-analysis/meeting-notes` folder contains 7 documents from a fictional fintech company working through a rewards program restructuring — product reviews, customer research, vendor evaluations, decision meetings, compliance reviews, a kickoff, and customer feedback.
@@ -63,3 +70,7 @@ You just turned 7 scattered documents into a structured deliverable in seconds.
 - Claude Code can read and synthesize across multiple documents at once
 - You don't need to tell it which file contains which detail — it finds connections automatically
 - Any file-based content (meeting notes, research, policy docs, RFPs) can be analyzed this way
+
+---
+
+[← Back to workshop index](../README.md) | [Next: Excel Analysis →](../02-excel-analysis/README.md)

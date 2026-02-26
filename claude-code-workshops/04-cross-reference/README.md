@@ -2,6 +2,13 @@
 
 In this module, you'll learn how to use Claude Code to verify data consistency across Excel and Word files, review and accept tracked changes, respond to inline compliance comments, and ensure documents stay in sync.
 
+**Files used:** `static/dispute_letter.docx`, `static/dispute_transactions.xlsx`
+**Prerequisite:** Module 02 (Excel Analysis) recommended
+
+## How this works
+
+Word and Excel files are binary formats — they contain far more than visible text. A `.docx` file stores tracked changes, reviewer comments, revision history, and formatting metadata alongside the content. Claude Code uses npm packages to parse these formats programmatically, which means it can read, compare, and modify that hidden layer of information, not just the text you'd see if you opened the file.
+
 ## Step 1: Cross-Reference the Files
 
 Ask Claude to compare data across Excel and Word:
@@ -47,3 +54,7 @@ Verify that the letter includes all disputed transactions listed in the spreadsh
 - Claude Code can work across multiple file types (Excel + Word) simultaneously
 - Tracked changes and inline comments in Word documents can be reviewed, accepted, and responded to
 - Cross-file data verification that typically takes 30+ minutes per case becomes a conversation
+
+---
+
+[← Previous: Data Analysis](../03-data-analysis/README.md) | [Next: Jira MCP Integration →](../05-jira-integration/README.md)
