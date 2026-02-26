@@ -41,11 +41,11 @@ Claude will rewrite your prompt incorporating your answers. Run it and compare t
 
 The difference isn't subtle.
 
-## Step 5: Configure the Harness
+## Step 5: Harness It
 
-In Anthropic's terminology, an **agent harness** is the system that wraps around a model — managing context, providing tools, and orchestrating actions. Claude Code is an agent harness. It takes the model and adds file access, a terminal, search, and memory. But out of the box, it doesn't know your role, your project, or your preferences. The improved prompt from Step 4 worked because you gave Claude that context in the moment. The next step is making it persistent.
+Steps 1–4 showed that better context produces better output. But you had to provide that context manually, in the moment. A **harness** makes it persistent — so every session starts with the right context already in place, and every response is shaped by it.
 
-Claude Code reads `CLAUDE.md` files automatically at the start of every session. This is how you configure the harness — your role, your conventions, how you want things done. The key principle: **only include things Claude can't figure out on its own**. Your role and preferences, yes. Standard conventions it already knows, no.
+Claude Code reads `CLAUDE.md` files automatically at the start of every session. You write down the context that matters — your role, your conventions, how you want things done — and Claude loads it before you type anything. The key principle: **only include things Claude can't figure out on its own**. Your role and preferences, yes. Standard conventions it already knows, no.
 
 Ask Claude to create one based on your conversation:
 
@@ -61,7 +61,7 @@ Claude Code supports layered configuration — a shared `CLAUDE.md` checked into
 
 - A basic prompt gets a basic answer — not because Claude is limited, but because context is missing
 - Asking Claude to ask *you* questions reveals exactly what makes a prompt good
-- Claude Code is an agent harness — `CLAUDE.md` is how you configure it for your work
+- A `CLAUDE.md` file harnesses that context permanently — every session starts with it already loaded
 - Only include what Claude can't figure out on its own, and refine it over time
 
 > **Try more:** Create a `CLAUDE.md` for your actual work. Start with your role and one or two preferences, then refine it over a few sessions.
